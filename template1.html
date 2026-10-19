@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restaurant Premium 2026</title>
+
+    <link rel="stylesheet" href="css/template1.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="loader">
+    <div class="loader-circle"></div>
+</div>
+
+<div class="cursor"></div>
+<div class="bg"></div>
+
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        <i class="fas fa-utensils"></i>
+        La Maison
+    </a>
+
+    <nav>
+        <a href="#home">Accueil</a>
+        <a href="#about">Notre histoire</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#reservation" class="btn">
+        <i class="fas fa-calendar"></i>
+        Réserver
+    </a>
+
+</header>
+
+
+<!-- HERO SECTION - BOOTSTRAP 5 -->
+<section class="py-5" id="home">
+
+    <div class="container py-lg-5">
+
+        <div class="row align-items-center g-5">
+
+            <!-- HERO CONTENT -->
+            <div class="col-lg-6">
+
+                <!-- Badge -->
+                <span class="badge rounded-pill text-bg-warning px-3 py-2 mb-4">
+                    <i class="fas fa-star me-2"></i>
+                    Cuisine raffinée
+                </span>
+
+                <!-- Title -->
+                <h1 class="display-3 fw-bold mb-4">
+                    L'art de la
+                    <span class="text-warning">gastronomie</span>
+                </h1>
+
+                <!-- Description -->
+                <p class="lead text-secondary mb-4">
+                    Découvrez une expérience culinaire unique,
+                    des saveurs authentiques et des plats préparés
+                    avec passion à partir d'ingrédients soigneusement sélectionnés.
+                </p>
+
+                <!-- Buttons -->
+                <div class="d-flex flex-wrap gap-3 mb-5">
+
+                    <a href="#menu" class="btn btn-warning btn-lg rounded-pill px-4">
+                        <i class="fas fa-utensils me-2"></i>
+                        Découvrir le menu
+                    </a>
+
+                    <a href="#reservation"
+                       class="btn btn-outline-dark btn-lg rounded-pill px-4">
+                        <i class="fas fa-calendar-check me-2"></i>
+                        Réserver une table
+                    </a>
+
+                </div>
+
+                <!-- Statistics -->
+                <div class="card border-0 shadow-sm rounded-4 p-3">
+
+                    <div class="row text-center g-3">
+
+                        <div class="col-4">
+                            <h2 class="fw-bold text-warning mb-1">
+                                <span class="counter" data-target="25">0</span>
+                            </h2>
+                            <p class="small text-secondary mb-0">
+                                Plats au menu
+                            </p>
+                        </div>
+
+                        <div class="col-4 border-start border-end">
+                            <h2 class="fw-bold text-warning mb-1">
+                                <span class="counter" data-target="10">0</span>
+                            </h2>
+                            <p class="small text-secondary mb-0">
+                                Ans d'expérience
+                            </p>
+                        </div>
+
+                        <div class="col-4">
+                            <h2 class="fw-bold text-warning mb-1">
+                                100%
+                            </h2>
+                            <p class="small text-secondary mb-0">
+                                Passion
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- HERO IMAGE -->
+            <div class="col-lg-6">
+
+                <div class="position-relative">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=85"
+                        alt="Intérieur élégant du restaurant"
+                        class="img-fluid rounded-4 shadow-lg w-100"
+                        style="height: 500px; object-fit: cover;"
+                    >
+
+                    <!-- Floating Card -->
+                    <div class="card border-0 shadow rounded-4 position-absolute bottom-0 start-0 m-3 p-3">
+
+                        <div class="d-flex align-items-center gap-3">
+
+                            <div class="bg-warning rounded-circle p-3">
+                                <i class="fas fa-clock fa-lg"></i>
+                            </div>
+
+                            <div>
+                                <strong>Nos horaires</strong>
+                                <p class="text-secondary mb-0">
+                                    12h00 - 23h00
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section reveal" id="about">
+
+    <span class="section-label">NOTRE HISTOIRE</span>
+
+    <h2>La passion dans chaque assiette</h2>
+
+    <div class="about-card glass">
+
+        <div class="about-icon">
+            <i class="fas fa-fire-burner"></i>
+        </div>
+
+        <h3>Une cuisine pleine de saveurs</h3>
+
+        <p>
+            La Maison est un template de site web destiné aux restaurants,
+            cafés et établissements gastronomiques. Présentez votre histoire,
+            vos spécialités, vos plats et vos coordonnées dans une interface
+            moderne et élégante.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="section reveal" id="menu">
+
+    <span class="section-label">NOTRE CARTE</span>
+
+    <h2>Découvrez notre menu</h2>
+
+    <div class="menu-filters">
+
+        <button class="filter-btn active" data-filter="all">
+            Tout
+        </button>
+
+        <button class="filter-btn" data-filter="entree">
+            Entrées
+        </button>
+
+        <button class="filter-btn" data-filter="plat">
+            Plats
+        </button>
+
+        <button class="filter-btn" data-filter="dessert">
+            Desserts
+        </button>
+
+    </div>
+
+    <div class="menu-grid">
+
+        <article class="menu-card glass" data-category="entree">
+
+            <img
+                src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80"
+                alt="Salade fraîche"
+                loading="lazy"
+            >
+
+            <div class="menu-info">
+                <span class="price">45 DH</span>
+                <h3>Salade fraîche</h3>
+                <p>Une entrée fraîche composée d'ingrédients de saison.</p>
+            </div>
+
+        </article>
+
+        <article class="menu-card glass" data-category="plat">
+
+            <img
+                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80"
+                alt="Plat équilibré"
+                loading="lazy"
+            >
+
+            <div class="menu-info">
+                <span class="price">85 DH</span>
+                <h3>Assiette gourmande</h3>
+                <p>Un plat généreux aux saveurs soigneusement associées.</p>
+            </div>
+
+        </article>
+
+        <article class="menu-card glass" data-category="plat">
+
+            <img
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80"
+                alt="Plat de viande"
+                loading="lazy"
+            >
+
+            <div class="menu-info">
+                <span class="price">110 DH</span>
+                <h3>Grillade maison</h3>
+                <p>Une spécialité préparée avec soin et accompagnements.</p>
+            </div>
+
+        </article>
+
+        <article class="menu-card glass" data-category="dessert">
+
+            <img
+                src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=700&q=80"
+                alt="Dessert glacé"
+                loading="lazy"
+            >
+
+            <div class="menu-info">
+                <span class="price">35 DH</span>
+                <h3>Douceur glacée</h3>
+                <p>Un dessert gourmand pour terminer votre repas.</p>
+            </div>
+
+        </article>
+
+        <article class="menu-card glass" data-category="dessert">
+
+            <img
+                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80"
+                alt="Gâteau au chocolat"
+                loading="lazy"
+            >
+
+            <div class="menu-info">
+                <span class="price">40 DH</span>
+                <h3>Gâteau chocolat</h3>
+                <p>Un dessert chocolaté pour les amateurs de gourmandise.</p>
+            </div>
+
+        </article>
+
+        <article class="menu-card glass" data-category="entree">
+
+            <img
+                src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80"
+                alt="Salade composée"
+                loading="lazy"
+            >
+
+            <div class="menu-info">
+                <span class="price">50 DH</span>
+                <h3>Salade composée</h3>
+                <p>Une composition colorée et pleine de fraîcheur.</p>
+            </div>
+
+        </article>
+
+    </div>
+
+    <p class="demo-note">
+        Prix et plats fictifs à personnaliser avant la mise en vente.
+    </p>
+
+</section>
+
+<section class="section reveal" id="gallery">
+
+    <span class="section-label">NOTRE UNIVERS</span>
+
+    <h2>Galerie du restaurant</h2>
+
+    <div class="gallery">
+
+        <img
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
+            alt="Table gastronomique"
+            loading="lazy"
+        >
+
+        <img
+            src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80"
+            alt="Restaurant"
+            loading="lazy"
+        >
+
+       
+<img
+    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"
+    alt="Delicious restaurant food"
+    loading="lazy"
+>
+
+
+        <img
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
+            alt="Présentation des plats"
+            loading="lazy"
+        >
+
+    </div>
+
+</section>
+
+<section class="section reveal" id="reservation">
+
+    <span class="section-label">RÉSERVATION</span>
+
+    <h2>Réservez votre table</h2>
+
+    <div class="reservation-layout">
+
+        <div class="reservation-info glass">
+
+            <i class="fas fa-calendar-check"></i>
+
+            <h3>Nous vous accueillons</h3>
+
+            <p>
+                Planifiez votre visite en remplissant le formulaire.
+                Vous pouvez personnaliser les horaires et les coordonnées
+                selon votre établissement.
+            </p>
+
+            <p>
+                <i class="fas fa-clock"></i>
+                Tous les jours : 12h00 - 23h00
+            </p>
+
+            <p>
+                <i class="fas fa-phone"></i>
+                +212 600 000 000
+            </p>
+
+        </div>
+
+        <form class="reservation-form glass" id="reservationForm">
+
+            <input
+                type="text"
+                name="nom"
+                placeholder="Votre nom"
+                required
+            >
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Votre email"
+                required
+            >
+
+            <input
+                type="date"
+                name="date"
+                id="reservationDate"
+                required
+            >
+
+            <select name="heure" required>
+                <option value="">Choisir une heure</option>
+                <option>12:00</option>
+                <option>13:00</option>
+                <option>14:00</option>
+                <option>19:00</option>
+                <option>20:00</option>
+                <option>21:00</option>
+            </select>
+
+            <select name="personnes" required>
+                <option value="">Nombre de personnes</option>
+                <option value="1">1 personne</option>
+                <option value="2">2 personnes</option>
+                <option value="3">3 personnes</option>
+                <option value="4">4 personnes</option>
+                <option value="5">5 personnes</option>
+                <option value="6">6 personnes</option>
+            </select>
+
+            <textarea
+                name="message"
+                rows="3"
+                placeholder="Demandes particulières"
+            ></textarea>
+
+            <button class="btn" type="submit">
+                Confirmer la demande
+            </button>
+
+            <p id="formMessage" aria-live="polite"></p>
+
+        </form>
+
+    </div>
+
+</section>
+
+<section class="section reveal" id="contact">
+
+    <span class="section-label">CONTACT</span>
+
+    <h2>Retrouvez-nous</h2>
+
+    <div class="contact-card glass">
+
+        <p>
+            <i class="fas fa-location-dot"></i>
+            Votre adresse, votre ville
+        </p>
+
+        <p>
+            <i class="fas fa-envelope"></i>
+            contact@restaurant.example
+        </p>
+
+        <p>
+            <i class="fas fa-phone"></i>
+            +212 600 000 000
+        </p>
+
+        <div class="social-links">
+
+            <a href="https://www.instagram.com" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://www.facebook.com" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+
+            <a href="https://www.tiktok.com" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 La Maison — Restaurant Premium Template</p>
+</footer>
+
+<script src="js/template1.js"></script>
+
+<!-- Bootstrap 5 JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
