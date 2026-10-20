@@ -83,4 +83,4 @@ Please define the license and usage terms before distributing or selling these t
 
 ---
 
-**Developed by Charraf | Web Development**
+**Developed by Achraf | Web Development**
