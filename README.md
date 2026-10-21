@@ -4,6 +4,24 @@ A collection of **six professional and responsive website templates**, designed 
 
 Each template has its own visual identity and can be customized to meet the needs of a project or client.
 
+## Screenshots & Previews
+
+Each website template includes preview images to showcase its visual design and layout.
+
+The screenshots are stored in the `images/`    directory and help users explore the appearance of the templates before opening or customizing them.
+
+### Template Previews
+
+| Template | Preview |
+|---|---|
+| Restaurant | ![Restaurant Template](images/restaurant.jpeg) |
+| Lexora | ![Lexora Template](images/lexora.png) |
+| Medicare | ![Medicare Template](images/medicare.png) |
+| Influenceur(style sombre) |![Influenceur(style sombre) Template](images/influenceur(style%20sombre).png)
+| Influencer (style noir et blan) | ![Influencer (style noir et blan)  Template](images/influencer(style%20noir%20et%20blan).png)
+| Influenceur(style clair) | ![Influenceur(style clair) Template](images/influenceur(style%20clair).png)
+
+
 ## Templates
 
 ### 1. Restaurant
